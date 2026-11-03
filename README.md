@@ -57,7 +57,7 @@ Risk tiers on the test set:
 
 ## Data
 
-50,000 transactions × 25 columns (Jan 1 – Mar 30, 2024) for **PaySphere**, a fictional payments company. The dataset is synthetic and contains no personal data. It isn't redistributed here; place it at `Datasets/transactions_fraud.csv` to re-run the notebook.
+50,000 transactions × 25 columns (Jan 1 – Mar 30, 2024) for **PaySphere**, a fictional payments company, in `Datasets/transactions_fraud.csv` (7.8 MB), with column descriptions in `Data Definition.xlsx`. The data is synthetic and contains no personal data. The notebook writes a cleaned copy to `Datasets/transactions_clean.csv` and the scoring artifacts to `fraud_model.pkl` when it runs.
 
 ## How to Run
 
